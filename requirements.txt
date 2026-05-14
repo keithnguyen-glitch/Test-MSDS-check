@@ -1,0 +1,9 @@
+streamlit
+pandas
+requests
+beautifulsoup4
+pdfplumber
+pytesseract
+pdf2image
+plotly
+openpyxl
