@@ -1,0 +1,6 @@
+{
+  "name": "MSDS Chemical Audit SaaS",
+  "description": "Hệ thống tra cứu và rà soát MSDS hóa chất tự động dựa trên mã CAS và HS code, đối chiếu với các quy định pháp luật Việt Nam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
