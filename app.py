@@ -7,6 +7,16 @@ import os
 # Page config
 st.set_page_config(page_title="ECUS Invoice Extractor", layout="wide")
 
+# --- ẨN THANH MENU VÀ FOOTER MẶC ĐỊNH CỦA STREAMLIT ---
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            header {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 st.title("Tự động trích xuất dữ liệu Invoice/Packing List (ECUS)")
 
 # Lấy API Key từ Environment Variable hoặc Input của người dùng
